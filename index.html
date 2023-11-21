@@ -23,13 +23,11 @@
         body{
             background-color: rgb(12, 53, 133);
         }
-        .term{
-            padding-left: 20px;
-        }
         input {
             background: none;
             color: white;
             border: none;
+            padding-right: 20px;
         }
         hr{
             width: 340px;
@@ -55,14 +53,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <h1>Computing @ AHS</h1>
     <h3>Enter your name</h3>
-    <a href="dashboard.html">
+    <form name = "loginForm" method="post" action="dashboard.html"> 
+        &nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="username" id = "username">  
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="dashboard.html">
         <button class="btn"><i class="fa fa-arrow-right"></i></button>
     </a>
-    <div padding-left: 20px>
-        <div class="term">
-           <input type="text" />
-        </div>
-    </div> 
+    </form> 
     <hr> 
 </body>
 </html>
